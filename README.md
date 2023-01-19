@@ -1,17 +1,7 @@
-import csv
-import matplotlib.pyplot as plt
-f = open('seoul.csv', 'r', encoding='cp949')
-data = csv.reader(f, delimiter=',')
+# `Data Science`
 
-header = next(data)
-
-print(data)
-
-# 최고기온 구하기
-max_temp = -999
-max_date = ''
-
-result = []
-high =[]
-low = []
-month = [[], [], [], [], [], [], [], [], [], [], [], []]
+## data.py : UNDHR.txt 슬라이싱
+## DataGraph.ipynb : 그래프 그리기 연습
+## seoul.csv : 데이터 분석을 위한 csv 자료
+## weather_csv.ipynb : 기상자료를 활용한 데이터 분석
+## wiki.py : wikipedia lib을 활용한 wordcloud 연습
